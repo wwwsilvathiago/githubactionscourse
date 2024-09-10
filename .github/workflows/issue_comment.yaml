@@ -24,7 +24,7 @@ jobs:
         #  reactions: '+1'
           
   comment-with-api:
-    runs: ubunt-latest
+    runs: ubuntu-latest
     steps:
       - name: Create comment with API
         run: |

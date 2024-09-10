@@ -12,7 +12,7 @@ on:
 jobs:
   hello:
     runs-on: ubuntu-latest
-    steps
+    steps:
       - uses: actions/checkout@v2
       - name: hello world
         run: echo "Hello World"
